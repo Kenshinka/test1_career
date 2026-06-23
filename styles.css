@@ -10,6 +10,7 @@
 body {
   font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   color: var(--text);
+  background: #fff;
   line-height: 1.6;
 }
 
@@ -55,3 +56,12 @@ body {
 .job__meta { color: #666; font-size: 14px; }
 
 .footer { background: var(--dark); color: #bbb; padding: 32px 0; text-align: center; }
+
+.fab {
+  position: fixed; right: 24px; bottom: 24px; z-index: 20;
+  background: var(--brand); color: #fff; text-decoration: none;
+  padding: 14px 22px; border-radius: 999px; font-weight: 600;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .25);
+  transition: transform .15s ease, background .15s ease;
+}
+.fab:hover { background: #a5170f; transform: translateY(-2px); }
