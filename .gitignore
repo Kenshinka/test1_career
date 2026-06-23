@@ -1,3 +1,6 @@
 .DS_Store
 Thumbs.db
 *.log
+
+# Локальные служебные файлы Claude Code / предпросмотра
+.claude/
